@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>One Fill</title>
+	<link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+	<div id="container">
+		<div id="user-inputs">
+			<span>Choose Scheme :</span>
+			<input id="rows" type="number" min="4" max="9" placeholder="Rows" required>_x_
+			<input id="cols" type="number" min="4" max="9" placeholder="Cols" required>
+			<button id="btn">Start</button>
+			<button id="btn-clear">Reload</button>
+		</div>
+		<div id="display">
+			<canvas id="canvas"></canvas>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
